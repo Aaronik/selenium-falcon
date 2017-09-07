@@ -1,0 +1,260 @@
+{
+  "src_folders": ["tests"],
+  "custom_commands_path": "helpers/",
+  "custom_assertions_path": "",
+  "globals_path": "globals/globals.json",
+
+  "selenium": {
+    "start_process": false,
+    "host": "hub.browserstack.com",
+    "port": 80
+  },
+
+  "test_settings": {
+    "default": {
+      "launch_url": "http://hub.browserstack.com",
+      "selenium_port" : 80,
+      "selenium_host" : "hub.browserstack.com",
+      "silent": true,
+      "screenshots": {
+        "enabled": false,
+        "path": ""
+      },
+
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "os": "Windows",
+        "os_version": "8.1",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+    "mac-firefox-31": {
+      "desiredCapabilities": {
+        "browser": "Firefox",
+        "browser_version": "31.0",
+        "os": "OS X",
+        "os_version": "Mavericks",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+    "mac-safari-6": {
+      "desiredCapabilities": {
+        "browser": "Safari",
+        "browser_version": "6.1",
+        "os": "OS X",
+        "os_version": "Mountain Lion",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+    "mac-safari-7": {
+      "desiredCapabilities": {
+        "browser": "Safari",
+        "browser_version": "7.0",
+        "os": "OS X",
+        "os_version": "Mavericks",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+    "mac-chrome-36": {
+      "desiredCapabilities": {
+        "browser": "Chrome",
+        "browser_version": "36.0",
+        "os": "OS X",
+        "os_version": "Mavericks",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+    "win-ie-11": {
+      "desiredCapabilities": {
+        "browser": "IE",
+        "browser_version": "11.0",
+        "os": "Windows",
+        "os_version": "7",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+    "win-firefox-31": {
+      "desiredCapabilities": {
+        "browser": "Firefox",
+        "browser_version": "31.0",
+        "os": "Windows",
+        "os_version": "7",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+    "win-chrome-36": {
+      "desiredCapabilities": {
+        "browser": "Chrome",
+        "browser_version": "36.0",
+        "os": "Windows",
+        "os_version": "7",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+
+    "win7-ie-10": {
+      "desiredCapabilities": {
+        "browser": "IE",
+        "browser_version": "10.0",
+        "os": "Windows",
+        "os_version": "7",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+    "win7-ie-11": {
+      "desiredCapabilities": {
+        "browser": "IE",
+        "browser_version": "11.0",
+        "os": "Windows",
+        "os_version": "7",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+    "win7-firefox-31": {
+      "desiredCapabilities": {
+        "browser": "Firefox",
+        "browser_version": "31.0",
+        "os": "Windows",
+        "os_version": "7",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+    "win7-chrome-36": {
+      "desiredCapabilities": {
+        "browser": "Chrome",
+        "browser_version": "36.0",
+        "os": "Windows",
+        "os_version": "7",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+
+    "win8-ie-10": {
+      "desiredCapabilities": {
+        "browser": "IE",
+        "browser_version": "10.0",
+        "os": "Windows",
+        "os_version": "8",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+    "win8-firefox-31": {
+      "desiredCapabilities": {
+        "browser": "Firefox",
+        "browser_version": "31.0",
+        "os": "Windows",
+        "os_version": "8",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+    "win8-chrome-36": {
+      "desiredCapabilities": {
+        "browser": "Chrome",
+        "browser_version": "36.0",
+        "os": "Windows",
+        "os_version": "8",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+
+    "win81-ie-11": {
+      "desiredCapabilities": {
+        "browser": "IE",
+        "browser_version": "11.0",
+        "os": "Windows",
+        "os_version": "8.1",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+    "win81-firefox-31": {
+      "desiredCapabilities": {
+        "browser": "Firefox",
+        "browser_version": "31.0",
+        "os": "Windows",
+        "os_version": "8.1",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    },
+    "win81-chrome-36": {
+      "desiredCapabilities": {
+        "browser": "Chrome",
+        "browser_version": "36.0",
+        "os": "Windows",
+        "os_version": "8.1",
+        "resolution": "1024x768",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserstack.user": "<your bs Username>",
+        "browserstack.key": "<your bs Access Key>"
+      }
+    }
+  }
+}
+

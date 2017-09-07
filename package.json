@@ -1,0 +1,18 @@
+{
+  "name": "selenium-falcon",
+  "version": "0.0.0",
+  "engines": {
+    "node": "6.9.0",
+    "npm": "3.10.8"
+  },
+  "scripts": {
+    "install": "./scripts/install.sh",
+    "start": "./scripts/start.sh",
+    "remote": "./scripts/start_remote.sh",
+    "clean": "./scripts/clean.sh"
+  },
+  "dependencies": {
+    "nightwatch": "^0.9.9"
+  },
+  "devDependencies": {}
+}

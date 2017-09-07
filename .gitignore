@@ -1,0 +1,5 @@
+node_modules
+drivers/
+npm-debug.log
+selenium-debug.log
+tests_output/
